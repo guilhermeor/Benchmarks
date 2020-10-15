@@ -9,7 +9,7 @@ namespace Benchmarks
     {
         static void Main(string[] args)
         {
-            var summary = BenchmarkRunner.Run<DictionaryClass>();
+            var summary = BenchmarkRunner.Run<Serializer>();
             Console.ReadLine();
         }
     }
